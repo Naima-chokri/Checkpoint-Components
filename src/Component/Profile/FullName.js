@@ -1,9 +1,10 @@
 import React from 'react'
+import './Style.css';
 
 const FullName = () => {
   return (
-    <div>
-        <h1>Naima Chokri</h1>
+    <div className='bloc-title'>
+        <h1 className='title'>Naima Chokri</h1>
     </div>
   )
 }
